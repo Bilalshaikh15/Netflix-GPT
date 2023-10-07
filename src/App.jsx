@@ -1,12 +1,13 @@
 import { useState } from 'react'
+import Body from './components/Body'
+import Header from './components/Header'
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1 className='bg-red-500'>Hello World</h1>
-      </div>
+      <Header />
+      <Body />
     </>
   )
 }
